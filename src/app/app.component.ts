@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template:'{{title}} My faveorite hero is: {{myHero}}'
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Tour of Heroes';
+  myHero = 'Windstorm';
 }
+
